@@ -1,0 +1,12 @@
+{
+  "excel_version": "16.0",
+  "excel_build": 20527.0,
+  "scope": "Load six CSVs, clean, validate, compute, format, refresh dashboard, generate two report types and export both PDFs; excludes Excel startup",
+  "automated_seconds": 4.018,
+  "source_files": 6,
+  "source_rows": 21,
+  "accepted_rows": 20,
+  "rejected_rows": 1,
+  "pdfs_generated": 2,
+  "manual_seconds": null
+}

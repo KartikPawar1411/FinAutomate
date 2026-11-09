@@ -1,0 +1,4 @@
+Issuer,Kind,Start,End,Published,Currency,Units,Source,Revenue,EBITDA,EBIT,NetIncome,DA,CapEx,OperatingCashFlow,Debt,Cash,Minority,Preferred,OtherEV,DilutedShares,CurrentAssets,CurrentLiabilities,Assets,Liabilities,Equity,EBT,Tax
+REVIEWCASE,Q,2021-01-01,2021-03-31,2021-05-10,USD,Millions,Synthetic valuation case v2,1210.0,242.0,217.8,157.3,24.2,78.65,193.6,4100,1500,30,45,10,500,5200,2900,15000,8000,7000,,
+REVIEWCASE,Q,2021-01-01,2021-03-31,2021-05-10,USD,Millions,Synthetic conflicting extract,1230.0,242.0,217.8,157.3,24.2,78.65,193.6,4100,1500,30,45,10,500,5200,2900,15000,8000,7000,,
+INVALIDCASE,Q,2021-01-01,2021-03-31,2021-05-10,USD,Millions,Synthetic valuation case v2,TBD,242.0,217.8,157.3,24.2,78.65,193.6,4100,1500,30,45,10,500,5200,2900,15000,8000,7000,,

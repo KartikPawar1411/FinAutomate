@@ -1,0 +1,17 @@
+Control,Count,Status,Source revenue,Normalized revenue (m),Difference (m)
+Imported files,2,INFO
+Imported rows,61,INFO
+Accepted,58,INFO
+Quarantined,3,WARNING
+Rejected,0,INFO
+Duplicate,0,INFO
+Superseded,0,INFO
+Deferred,0,INFO
+Disposition difference,0,PASS
+periods.csv | Q | USD Millions,32,PASS,43160.00000000001,43160.00000000001,0.0
+periods.csv | FY | USD Millions,6,PASS,32728.8,32728.8,0.0
+periods.csv | YTD | USD Millions,4,PASS,14002.560000000001,14002.560000000001,0.0
+periods.csv | Q | EUR Millions,12,PASS,23375.0,23375.0,0.0
+periods.csv | FY | EUR Millions,2,PASS,15956.25,15956.25,0.0
+periods.csv | YTD | EUR Millions,2,PASS,4785.0,4785.0,0.0
+review_cases.csv | Q | USD Millions,2,PASS,2440.0,2440.0,0.0

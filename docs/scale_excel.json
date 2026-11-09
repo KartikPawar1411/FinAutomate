@@ -1,0 +1,50 @@
+[
+  {
+    "import_io_sql_seconds": 0.05570199970679823,
+    "normalize_and_validate_seconds": 0.012088100309483707,
+    "reconcile_ltm_and_stage_seconds": 0.04546549999213312,
+    "rows": 1000,
+    "dispositions": {
+      "Accepted": 987,
+      "Quarantined": 13
+    },
+    "python_peak_MiB": 28.5,
+    "excel_peak_MiB": 213.9,
+    "excel_build": 20527.0,
+    "pdf_seconds": 0.319396,
+    "workbook_bytes": 392224,
+    "refresh_workbook_seconds": 0.8885971
+  },
+  {
+    "import_io_sql_seconds": 0.1488043999997899,
+    "normalize_and_validate_seconds": 0.11641669999517035,
+    "reconcile_ltm_and_stage_seconds": 0.4393508999928599,
+    "rows": 10000,
+    "dispositions": {
+      "Accepted": 9897,
+      "Quarantined": 103
+    },
+    "python_peak_MiB": 77.8,
+    "excel_peak_MiB": 231.6,
+    "excel_build": 20527.0,
+    "pdf_seconds": 0.388876,
+    "workbook_bytes": 1455191,
+    "refresh_workbook_seconds": 1.427778
+  },
+  {
+    "import_io_sql_seconds": 0.6364991015288979,
+    "normalize_and_validate_seconds": 0.5875214984844206,
+    "reconcile_ltm_and_stage_seconds": 4.2252492000116035,
+    "rows": 50000,
+    "dispositions": {
+      "Accepted": 49497,
+      "Quarantined": 503
+    },
+    "python_peak_MiB": 295.2,
+    "excel_peak_MiB": 348.6,
+    "excel_build": 20527.0,
+    "pdf_seconds": 0.6257996,
+    "workbook_bytes": 6146864,
+    "refresh_workbook_seconds": 5.3236444
+  }
+]

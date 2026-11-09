@@ -1,0 +1,104 @@
+[
+  {
+    "test": "CAPM WACC",
+    "expected": 0.0856875,
+    "actual": 0.0856875,
+    "passed": true
+  },
+  {
+    "test": "Growth DCF EV",
+    "expected": 14189.09358773831,
+    "actual": 14189.093587738313,
+    "passed": true
+  },
+  {
+    "test": "DCF implied share price",
+    "expected": 23.00818717547662,
+    "actual": 23.008187175476625,
+    "passed": true
+  },
+  {
+    "test": "Sensitivity center matches independent DCF",
+    "expected": 23.00818717547662,
+    "actual": 23.00818717547662,
+    "passed": true
+  },
+  {
+    "test": "Price decreases with higher WACC",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Quoted diluted EV bridge",
+    "expected": 35185.0,
+    "actual": 35185.0,
+    "passed": true
+  },
+  {
+    "test": "Target excluded from peer count",
+    "expected": 3,
+    "actual": 3.0,
+    "passed": true
+  },
+  {
+    "test": "Peer median P/E",
+    "expected": 35.714285714285715,
+    "actual": 35.714285714285715,
+    "passed": true
+  },
+  {
+    "test": "Implied equity from peer P/E",
+    "expected": 32500.0,
+    "actual": 32500.0,
+    "passed": true
+  },
+  {
+    "test": "Football field chart present",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "test": "Excluding peer changes statistics",
+    "expected": 2,
+    "actual": 2.0,
+    "passed": true
+  },
+  {
+    "test": "Exit-multiple terminal EV",
+    "expected": 19758.64779861524,
+    "actual": 19758.64779861524,
+    "passed": true
+  },
+  {
+    "test": "Terminal growth above WACC",
+    "expected": "N/M",
+    "actual": "N/M",
+    "passed": true
+  },
+  {
+    "test": "Formatting preserves formula",
+    "expected": "=IF(COUNT(Financial_Statements!U2,Financial_Statements!X2,Financial_Statements!Z2)<3,\"N/A\",IF(Financial_Statements!Z2<=0,\"N/M\",(Financial_Statements!U2-Financial_Statements!X2)/Financial_Statements!Z2))",
+    "actual": "=IF(COUNT(Financial_Statements!U2,Financial_Statements!X2,Financial_Statements!Z2)<3,\"N/A\",IF(Financial_Statements!Z2<=0,\"N/M\",(Financial_Statements!U2-Financial_Statements!X2)/Financial_Statements!Z2))",
+    "passed": true
+  },
+  {
+    "test": "Formula-like CSV field stays literal",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "test": "Annual source hash matches input bytes",
+    "expected": "78692046bf6be7dc38c6c981805354ae8f4b8cf07e5aa36378def6b9ca63ea64",
+    "actual": "78692046bf6be7dc38c6c981805354ae8f4b8cf07e5aa36378def6b9ca63ea64",
+    "passed": true
+  },
+  {
+    "test": "Encrypted XLSX rejected without append",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "test": "Byte-identical repeat",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "test": "Partition",
+    "expected": 61,
+    "actual": 61,
+    "passed": true
+  },
+  {
+    "test": "Valid filings",
+    "expected": 58,
+    "actual": 58,
+    "passed": true
+  },
+  {
+    "test": "Future information filtered",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "test": "Actual quarters revenue",
+    "expected": 7000.0,
+    "actual": 7000.0,
+    "passed": true
+  },
+  {
+    "test": "Annual + six month stub - prior comparable stub",
+    "expected": 5460.0,
+    "actual": 5460.0,
+    "passed": true
+  },
+  {
+    "test": "Missing quarter",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Quarter currency change",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Overlapping quarter",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Leap-day FY",
+    "expected": "2024-02-29",
+    "actual": "2024-02-29",
+    "passed": true
+  },
+  {
+    "test": "Fiscal-year transition requires stub",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Explicit transition stub",
+    "expected": "STUB",
+    "actual": "STUB",
+    "passed": true
+  },
+  {
+    "test": "Reject Revenue",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Reject Units",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Reject End",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Reject Equity",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Missing cash remains unavailable",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Negative equity retained when balance balances",
+    "expected": -1.0,
+    "actual": -1.0,
+    "passed": true
+  },
+  {
+    "test": "Negative EBITDA multiple",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Zero earnings multiple",
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "Approval requires review",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Approved variant reprocessed",
+    "expected": "Accepted",
+    "actual": "Accepted",
+    "passed": true
+  },
+  {
+    "test": "Invalid approval blocked",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Rejected stays out",
+    "expected": "Rejected",
+    "actual": "Rejected",
+    "passed": true
+  },
+  {
+    "test": "Append-only action count",
+    "expected": 4,
+    "actual": 4,
+    "passed": true
+  },
+  {
+    "test": "Permanent record ID includes source digest",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "test": "Revision hidden until published",
+    "expected": 7000.0,
+    "actual": 7000.0,
+    "passed": true
+  },
+  {
+    "test": "EV with minority, preferred and other EV components",
+    "expected": 32578.7037037037,
+    "actual": 32578.7037037037,
+    "passed": true
+  },
+  {
+    "test": "Diluted equity value",
+    "expected": 30092.59259259259,
+    "actual": 30092.592592592588,
+    "passed": true
+  },
+  {
+    "test": "No future quotes",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  }
+]

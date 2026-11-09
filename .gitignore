@@ -1,0 +1,13 @@
+~$*
+build_*.xlsm
+Before_reset_*.xlsm
+*.inspect.ndjson
+__pycache__/
+node_modules/
+reports/Company_*.pdf
+reports/Comparison_*.pdf
+*.tmp
+*.bak
+*.lock
+*.log
+valuation/*.sqlite

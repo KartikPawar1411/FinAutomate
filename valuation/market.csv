@@ -1,0 +1,5 @@
+Issuer,Date,Currency,Price,Industry,Geography,BusinessModel,Source
+ACME,2024-03-28,USD,65.0,Industrial components,North America,Component manufacturing,Synthetic market case v2
+ARCO,2024-03-28,USD,71.5,Industrial components,North America,Component manufacturing,Synthetic market case v2
+BOLT,2024-03-28,EUR,58.5,Industrial components,Europe,Component manufacturing,Synthetic market case v2
+CAST,2024-03-28,USD,84.5,Industrial components,North America,Component manufacturing,Synthetic market case v2

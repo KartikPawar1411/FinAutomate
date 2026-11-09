@@ -1,0 +1,45 @@
+{
+  "os": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "logical_cpus": 24,
+  "python": "3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]",
+  "scope": "SQLite import, normalization/validation, dispositions and LTM. Excludes Excel, PDF and fixture generation.",
+  "measurements": [
+    {
+      "rows": 1000,
+      "import_io_sql_seconds": 0.053519699853495695,
+      "normalize_and_validate_seconds": 0.01477130014973227,
+      "reconciliation_seconds": 0.012546700003440492,
+      "eligible_ltm": 240,
+      "ltm_seconds": 0.004550600002403371,
+      "accepted": 990,
+      "quarantined": 10,
+      "database_bytes": 1482752,
+      "python_peak_MiB": 29.4
+    },
+    {
+      "rows": 10000,
+      "import_io_sql_seconds": 0.14914819980913308,
+      "normalize_and_validate_seconds": 0.11800090019823983,
+      "reconciliation_seconds": 0.11122740000428166,
+      "eligible_ltm": 2400,
+      "ltm_seconds": 0.047935800001141615,
+      "accepted": 9900,
+      "quarantined": 100,
+      "database_bytes": 14573568,
+      "python_peak_MiB": 69.5
+    },
+    {
+      "rows": 50000,
+      "import_io_sql_seconds": 0.6410330000508111,
+      "normalize_and_validate_seconds": 0.6022946999582928,
+      "reconciliation_seconds": 0.6329433000064455,
+      "eligible_ltm": 12000,
+      "ltm_seconds": 0.24156749999383464,
+      "accepted": 49500,
+      "quarantined": 500,
+      "database_bytes": 72814592,
+      "python_peak_MiB": 248.6
+    }
+  ]
+}
